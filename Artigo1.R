@@ -1,6 +1,6 @@
 # Artigo 1 -  Introdução ao Shiny -----------------------------------------
 # 1 - Instalação:
-# Como o pacote já vem no Rstudio basta usar library()
+# Como o pacote já vem no Rstudio basta usar library() ou instalar o pacote
 library(shiny)
 
 # 2 - Exemplos:
