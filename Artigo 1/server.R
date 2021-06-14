@@ -26,5 +26,9 @@ shinyServer(function(input, output) {
       )
     }
   })
-})
+  output$distPlot <- renderPlot({
+  x    <- input$ValorSlider
+  hist(rnorm(x), main = input$titulo)
+  })
 
+})
