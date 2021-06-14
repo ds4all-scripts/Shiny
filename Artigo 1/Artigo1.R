@@ -18,4 +18,5 @@ system.file("examples", package="shiny")
 #para citar esse pacote
 citation("shiny")
 
+# Visualizar os principais wedgets em ação
 runGist (6571951)
